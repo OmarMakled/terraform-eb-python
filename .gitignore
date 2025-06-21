@@ -1,0 +1,20 @@
+__pycache__/
+venv/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Terraform working directory
+.terraform/
+
+# Sensitive variable files
+terraform.tfvars
+terraform.tfvars.json
+.secret.auto.tfvars
